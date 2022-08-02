@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.customHoverApp:hover{
+  background-color: #FCB119;
+}
+
+.customHoverApp:hover .starColor{
+  color: black;
+}
+
+.navLogo{
+  height: 25px;
+}
+/* color para el list view */
+.starColor{
+  color: #FCB119;
+}
+/* colores de estrellas para el modal */
+.redStar{
+  color: red;
+}
+
+.greenStar{
+  color: green;
+}
+
+/* tamaños de fuentes */
+.autorTitulo{
+  font-size: 0.7rem;
+}
+
+/* estilo de los comentarios */
+.userImg{
+  width: 50px;
+}
+
+.cursorStar{
+  cursor: pointer;
+}
+
+.cursorStar:hover{
+  font-size: 20px;
+}
+
+.commentsSection{
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
